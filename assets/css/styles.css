@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 16px;
+
+
+  }
+
+.card {
+    padding: 15px; /* Ajusta el padding según tus necesidades */
+    border-width: 0px; /* Ajusta el grosor del borde según tus necesidades */
+      }
+
+  /* Modificar el padding de elementos específicos dentro de la card (ejemplo: el cuerpo de la card) */
+  .card-body {
+    padding: 20px; /* Ajusta el padding según tus necesidades */
+  }
+
+  .card img {
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Ajusta cómo se ajusta la imagen al contenedor */
+    object-position: center center; /* Centra la imagen dentro del contenedor */
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+
+
+  label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  input, textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  #description {
+    text-align: center;
+    font-size: 24px; /* Puedes ajustar el tamaño del texto según tus preferencias */
+    font-weight: bold; /* Otra propiedad opcional para resaltar el texto */
+  }
